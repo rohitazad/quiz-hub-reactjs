@@ -1,0 +1,62 @@
+.quizWrap{
+    .cat, .score{
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        font-weight: bold;
+        margin:20px 0;
+    }
+
+    .score{
+        float: right;
+    }
+}
+.options{
+    text-align: center;
+        .btn.select{
+            background-color: #198754;
+            color: #ffffff;
+        }
+        .btn.wrong{
+            background-color: #dc3545;
+            color: #ffffff;
+        }
+    .singleOption{
+        font-weight: bold;
+        font-size: 14px;
+        width:40%;
+        margin: 10px;
+        border: solid 1px #ffffff;
+        line-height: 32px;
+    }
+}
+.singleQuestion{
+    h2{
+        text-align: center;
+        margin:20px 0;
+    }
+}
+.btnControl{
+display: flex;
+  width: 100%;
+  justify-content:center;
+    .btn{
+        display: inline-block;
+        vertical-align: top;
+        width:200px;
+        box-shadow: 0 0 1px black;
+    }
+    .btn + .btn{
+        margin-left: 20px;
+    }
+}
+.btnControl{
+    margin-top: 20px;
+}
+
+@media (max-width: 614px) {
+    .options .singleOption {
+      width: 80%;
+    }
+    
+  }
